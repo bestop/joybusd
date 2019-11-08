@@ -1,22 +1,9 @@
 ---
 layout: post
 published: true
-title: Who Are You? You Are Every Single Day.
-tags: essay
+title: SOLO美国1-6岁幼儿园启蒙英语全套早教课程
+tags: 英语启蒙
 ---
-You are the books you read, the films you watch, the music you
-listen to, the people you meet, the dreams you have, and the conversations you
-engage in. You are what you take from these.
-
-You are the sound of the ocean, the breath of fresh air, the
-brightest light and the darkest corner.
-
-You are a collective of every experience you have had in life.
-
-You are every single day.
-
-So drown yourself in knowledge and existence.
-
-Let the words run through your veins and let the colours fill your mind.
-
--Jacque Fresco
+SOLO美国幼儿园启蒙英语全套早教课程，美国1-6岁幼儿园英语学习视频，SOLO美国幼儿园启蒙早教英语全套学习视频，超清学习动画片，简单重复又有节奏，一开始我以为孩子会不喜欢这种简单教学的视频，没想到放给孩子看，孩子居然很喜欢，看着看着还会跟读起来。 <br>
+链接：https://pan.baidu.com/s/107rf1NXVNrw1iZwfguji5Q  <br>
+提取码：y5ai 
