@@ -1,0 +1,287 @@
+/*
+
+/* **************************
+Plantilla adaptada a Blogger por blogandweb
+Diseño original por headsetoptions.
+
+Encuentra esta y más plantillas en:
+http://blogandweb.com
+http://btemplates.com
+
+Recuerda que esta plantilla es gratuita y esta 
+bajo una licencia Creative Commons Atribution.
+Puedes usarla para fines personales o comerciales 
+pero NO REMOVER LOS CREDITOS
+
+Una bonita forma de agradecer es dando un link a blogandweb.
+***************************** */
+
+
+/* Definición de variables
+   ====================
+    <Variable name="colortitentradas" description="Color título entradas"
+             type="color" default="#1667A7" value="#1667A7">
+   <Variable name="textocolor" description="Color general del texto"
+             type="color" default="#333333" value="#333333">
+   <Variable name="enlacecolor" description="Color de los enlaces (links)"
+             type="color" default="#1566A7" value="#1566A7">
+   <Variable name="colortituloblog" description="Color del título del blog"
+             type="color" default="#99CC00" value="#99CC00">
+   <Variable name="descripcioncolor" description="Color de la descripción del blog"
+             type="color" default="#ccc" value="#cccccc">
+   <Variable name="colortituloslateral" description="Color de los titulos en la barra lateral"
+             type="color" default="#999999" value="#999999">
+   <Variable name="colorenlaceencima" description="Color del link al pasar el mouse"
+             type="color" default="#9C0" value="#99CC00">
+*/
+
+#outer-wrapper {
+}
+
+#navbar-iframe {
+   height:0px;
+   visibility:hidden;
+   display:none
+}
+
+/*-- (Genrales) --*/
+
+body {
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+a:link { color: $enlacecolor; text-decoration: none }
+a:visited { color: #1566A7; text-decoration: none }
+a:hover { color: $colorenlaceencima; text-decoration: none }
+a:active { color: #1566A7; text-decoration: none }
+
+h1 {
+	font: 24px/22px Georgia, Verdana, arial, sans-serif;
+	margin: 0 0 0 24px;
+	padding-top: 56px;
+	letter-spacing: -1px;
+        color:$colortituloblog;
+}
+
+h2 {
+font-family:Georgia,"Times New Roman",serif;
+font-size:16px;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+letter-spacing:-1px;
+line-height:normal;
+}
+
+h3 {
+	display: block;
+	font: normal 9px/10px Georgia, "Times New Roman", serif;
+	color: #999;
+	letter-spacing: 3px;
+	margin: 8px 8px 4px 15px;
+}
+
+form {
+	margin-top: 20px;
+}
+
+input, textarea {
+	font: 11px 'Lucida Grande', Verdana, arial, sans-serif;
+}
+
+table, img { border: 0; }
+
+* html blockquote{height: 1%;} /* ie hack */
+* html li{height: 1%;} /* ie hack */
+
+blockquote {
+	font: 10px/16px Georgia, "Times New Roman", serif;
+	display: block;
+	padding: 0 10px 6px 18px;
+	border-left: 8px solid #e4e4e4;
+	color: #888;
+	margin: 0 26px 15px 36px;
+}
+
+#main-wrapper {
+overflow:hidden;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center; 
+}
+
+/*-- (Cabecera) --*/
+
+#header-wrapper {
+	display: block;
+	margin:9px auto 16px auto;
+	width: 724px;
+	height: 125px;
+	background-image:url(http://e.hijoe.net/bgcss/arhdr1.jpg);
+}
+
+#header-wrapper h1 {
+}
+
+#header-wrapper p {
+	font: 9px/10px 'Lucida Grande', Verdana, arial, sans-serif;
+	color: $descripcioncolor;
+	margin: 0 0 0 24px;
+	width: 310px;
+}
+
+#header-wrapper a:link, #header-wrapper a:visited {
+	color: #9c0;
+}
+
+#header-wrapper a:hover {
+	color: #fff;
+}
+
+#content-wrapper {
+	margin:0 auto;
+	width: 720px;
+	background-color: #fff;
+	border-left: 1px solid #f2f2f2;
+	font: 10px/18px 'Lucida Grande', Verdana, arial, sans-serif;
+	margin-bottom:24px;
+	color: $textocolor;
+}
+
+#content-wrapper img {
+	padding: 5px;
+	border: 1px solid #ccc;
+	margin: 5px;
+
+}
+
+/*-- (Menú) --*/
+
+
+
+/*-- (Principal) --*/
+
+#main-wrapper {
+	float: left;
+	width: 458px;
+}
+
+#main-wrapper a {
+}
+
+#main-wrapper a:hover {
+}
+
+.post {
+	margin: 0 26px 15px 24px;
+	padding: 0;
+}
+.post ul {
+	margin: 0 28px 20px 30px;
+}
+.post ul li {
+	list-style: url(http://e.hijoe.net/bgcss/arbullet.gif);
+} 
+
+.post ol {
+	margin: 0 28px 20px 24px;
+}
+
+.post ol li {
+	list-style: none;
+} 
+.post-title, .post-title a {
+color: $colortitentradas;
+}
+
+.post-body {
+}
+
+.date-header {
+	font: normal 9px/9px Georgia, "Times New Roman", serif;
+	color: #999;
+	letter-spacing: 4px;
+	margin:0pt 0 0 24px;
+}
+
+.post-footer {
+	border-top: 1px dotted #ccc;
+	margin: 18px 0px 8px 0px;
+	padding: 4px 0 0 0;
+	font-size: 9px;
+	line-height: 16px;
+	color: #999;
+}
+
+.post-author {
+	color: #666;
+}
+
+/*-- (Lateral) --*/
+
+#sidebar-wrapper {
+	width: 240px;
+	border-right: 1px solid #f2f2f2;
+	border-left: 1px solid #f2f2f2;
+	float:right;
+}
+
+#sidebar-wrapper img { border: 0; }
+
+#sidebar-wrapper ul {
+	margin:0 0 8px 0;
+	padding-left:14px;
+	padding-right: 14px;
+}
+
+#sidebar-wrapper ul li {
+	list-style: none;
+}
+
+#sidebar-wrapper ul li a {
+	width: 100%;
+}
+
+#sidebar-wrapper h2 {
+color:$colortituloslateral;
+display:block;
+font-family:Georgia,"Times New Roman",serif;
+font-size:9px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+letter-spacing:3px;
+line-height:10px;
+margin:8px 8px 4px 15px;
+}
+
+.widget-content {
+}
+
+.sidebar .widget {
+	background-color: #fff;
+	margin:0 0 18px 0;
+}
+
+/*-- (Pie de página) --*/
+
+#footer-wrapper {
+background-color:#FFFFFF;
+margin:20px 0pt 18px;
+
+}
+
+#footer-wrapper .links {
+margin:0pt 14px 8px;
+}
+

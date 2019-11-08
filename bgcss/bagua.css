@@ -1,0 +1,318 @@
+/*
+/* **************************
+Plantilla adaptada a Blogger por Blogandweb
+Diseño original por The Undersigned.
+Encuentra esta y más plantillas en:
+http://blogandweb.com/
+http://btemplates.com
+Recuerda que esta plantilla es gratuita y esta 
+bajo una licencia Creative Commons Atribution.
+Puedes usarla para fines personales o comerciales 
+pero NO REMOVER LOS CREDITOS
+Una bonita forma de agradecer es dando un link a BlogandWeb.
+***************************** */
+
+
+/* Definición de variables
+   ====================
+    <Variable name="bgcolor" description="Color de fondo del blog"
+             type="color" default="#FFFFFF" value="#FFFFFF">
+   <Variable name="textocolor" description="Color general del texto"
+             type="color" default="#333333" value="#333333">
+   <Variable name="enlacecolor" description="Color de los enlaces (links)"
+             type="color" default="#0092C8" value="#0092C8">
+   <Variable name="colortituloblog" description="Color del título del blog"
+             type="color" default="#0092C8" value="#0092C8">
+   <Variable name="colortituloentrada" description="Color del título de las entradas"
+             type="color" default="#0092C8" value="#0092C8">
+   <Variable name="colortituloslateral" description="Color de los titulos en la barra lateral"
+             type="color" default="#0092C8" value="#0092C8">
+*/
+
+#outer-wrapper {
+margin:0pt auto;
+width:750px;
+}
+
+#navbar-iframe {
+   height:0px;
+   visibility:hidden;
+   display:none;
+}
+
+/*-- (Genrales) --*/
+
+body {
+background-color:$bgcolor;
+color:$textocolor;
+font-family: Helvetica, Arial, sans-serif;
+text-rendering: optimizeLegibility;
+font-size:12px;
+margin:0pt;
+}
+a:link, a:visited {
+color:#0092C8;
+text-decoration:none;
+}
+a:hover {
+text-decoration:underline;
+}
+* {
+margin:0pt;
+padding:0pt;
+}
+
+#main-wrapper {overflow:hidden;} .clear {clear:both;}
+#blog-pager-newer-link {float: left;} #blog-pager-older-link {float: right;} #blog-pager {text-align: center; }
+
+/*-- (Cabecera) --*/
+
+#header-wrapper {
+margin-bottom:20px;
+}
+
+#header-wrapper h1 {
+color:$colortituloblog;
+float:right;
+font-size:30px;
+font-weight:normal;
+line-height:22px;
+margin:38px 5px 0pt 0pt;
+text-align:right;
+width:340px;
+}
+
+#header-wrapper a {
+color:#0092C8;
+text-decoration:none;
+}
+
+#header-wrapper p {
+   height:0px;
+   visibility:hidden;
+   display:none;
+}
+
+/*-- (Menú) --*/
+
+#topmenu {
+float:left;
+margin-top:40px;
+width:400px;
+z-index:5;
+}
+#topmenu a:link, #topmenu a:visited {
+color:#333333;
+}
+#topmenu a:hover {
+text-decoration:none;
+}
+#topmenu ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0pt 0pt 0pt 5px;
+padding:0pt;
+}
+#topmenu ul li a:link, #topmenu ul li a:visited {
+border-bottom:2px solid #0092C8;
+display:block;
+font-size:12px;
+line-height:12px;
+margin:0pt 5px 0pt 0pt;
+padding:5px 15px 2px 5px;
+text-transform:uppercase;
+}
+#topmenu ul li a:hover {
+border-bottom:2px solid #0092C8;
+}
+#topmenu ul li {
+display:block;
+float:left;
+position:relative;
+margin:0;
+padding:0;
+}
+
+#headerimage {
+background-image:url(http://e.hijoe.net/bgcss/aguaheader.jpg);
+background-position:center;
+background-repeat:no-repeat;
+border-bottom:1px solid #CCCCCC;
+border-top:1px solid #CCCCCC;
+clear:both;
+height:150px;
+}
+
+/*-- (Principal) --*/
+
+#main-wrapper {
+float:left;
+margin:0pt 0pt 0pt 5px;
+width:520px;
+}
+
+#main-wrapper a {
+}
+
+#main-wrapper a:hover {
+}
+
+.post {
+clear:both;
+margin:0pt 0pt 30px;
+}
+
+.post-body ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-left:0px;
+padding:0pt 0pt 0pt 10px;
+text-indent:-10px;
+}
+.post-body li {
+margin:7px 0pt 8px 10px;
+}
+.post-body ol {
+margin:0pt;
+padding:0pt 0pt 0pt 15px;
+text-indent:-5px;
+}
+
+.post a:link, .post a:visited {
+color:$;
+}
+.post a:hover {
+color:#0092C8;
+text-decoration:none;
+}
+
+.post-title, .post-title a {
+color:$colortituloentrada;
+font-size:20px;
+font-weight:normal;
+line-height:20px;
+margin:0pt 0pt 2px;
+}
+
+.post-body {
+}
+
+.date-header {
+color:#CCCCCC;
+font-size:10px;
+line-height:10px;
+margin:0pt 0pt 5px;
+text-transform:uppercase;
+}
+
+.post-footer {
+color:#CCCCCC;
+font-size:10px;
+line-height:10px;
+margin:0pt 0pt 5px;
+text-transform:uppercase;
+}
+
+.post-footer a:link, .post-footer a:visited {
+color:#AAAAAA;
+}
+.post-footer a:hover {
+color:#0092C8;
+text-decoration:none;
+}
+
+.post p {
+line-height:20px;
+margin:0pt 0pt 15px;
+}
+.post p a:link, .post p a:visited, .post ul a:link, .post ol a:link, .post ul a:visited, .post ol a:visited {
+color:$enlacecolor;
+}
+.post p a:hover, .post ul a:hover, .post ol a:hover {
+text-decoration:underline;
+}
+
+.post blockquote {
+border-bottom:1px solid #0092C8;
+border-top:1px solid #0092C8;
+margin:0pt 0pt 15px 20px;
+padding:5px;
+}
+.post blockquote p {
+font-style:italic;
+margin:0pt;
+}
+.post blockquote blockquote {
+background-color:#F3F3F3;
+margin-top:15px;
+}
+.post img {
+}
+
+/*-- (Lateral) --*/
+
+#sidebar-wrapper {
+float:right;
+margin:0pt 5px 0pt 0pt;
+width:180px;
+}
+
+#sidebar-wrapper h2 {
+color:$colortituloslateral;
+font-size:20px;
+font-weight:normal;
+line-height:20px;
+margin:0pt 0pt 2px;
+}
+
+#sidebar-wrapper a:link, #sidebar-wrapper a:visited {
+color:#333333;
+}
+#sidebar-wrapper a:hover {
+color:#0092C8;
+text-decoration:none;
+}
+#sidebar-wrapper ul li {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-bottom:5px;
+}
+
+.post-body ul li:before, #sidebar-wrapper ul li:before {
+color:#0092C8;
+content:"> ";
+}
+
+.widget-content {
+margin:5px 0pt 8px;
+}
+
+.sidebar .widget {
+margin:0pt;
+padding:0pt;
+}
+
+/*-- (Pie de página) --*/
+
+#footer-wrapper {
+border-top:1px solid #CCCCCC;
+clear:both;
+}
+
+#footer-wrapper .links {
+color:#CCCCCC;
+font-size:10px;
+margin:5px 0pt 30px 5px;
+text-transform:uppercase;
+}
+
+#footer-wrapper a:link, #footer a:visited {
+color:#AAAAAA;
+}
+#footer-wrapper a:hover {
+color:#0092C8;
+text-decoration:none;
+}

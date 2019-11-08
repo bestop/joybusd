@@ -1,0 +1,38 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl: 
+url: http://e.hijoe.net
+date_format: "ordinal"
+title: English Reader
+author: EnReader 
+
+# ---------------- #
+#   RSS / Email    #
+# ---------------- #
+subscribe_rss: /feed.xml
+email:
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+paginate: 9
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+duoshuo_short_name: enread
+changyan: false
