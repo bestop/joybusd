@@ -2,10 +2,10 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
-url: http://e.hijoe.net
+url: http://d.joybus.tk
 date_format: "ordinal"
-title: English Reader
-author: EnReader 
+title: JouBus
+author: JoyBus 
 
 # ---------------- #
 #   RSS / Email    #
@@ -34,5 +34,5 @@ collections:
 # ---------------- #
 #      Comments    #
 # ---------------- #
-duoshuo_short_name: enread
+duoshuo_short_name: 
 changyan: false
