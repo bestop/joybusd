@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 美国科学教材 science fusion 幼儿园到小学全套科学教材
-tags: 数理思维
+tags: 数理科普
 ---
 <p>
 	本套教材贴心设计，课本＆练习本合二为一，课程规划着重于培育学生成为一个有思考力、有创造力的科学家。 课程规划涵括了Earth &amp; Space Science、Physical Science、Life Science三大主要领域。此系列荣获&nbsp;&nbsp;2011 Global ICT Excellence Awards之殊荣，是国际肯定此教材推动信息化的杰出成就。<br />
