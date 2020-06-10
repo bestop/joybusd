@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Little Fox英文版西游记《Journey to the West》
-tags: 英文启蒙
+tags: 英语启蒙
 ---
 
 <p>
