@@ -2,10 +2,10 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
-url: http://hikid.club
+url: http://hikid.online
 date_format: "ordinal"
-title: JoyBus
-author: JoyBus 
+title: HiKid
+author: HiKid 
 
 # ---------------- #
 #   RSS / Email    #
