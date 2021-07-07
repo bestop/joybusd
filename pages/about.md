@@ -1,8 +1,8 @@
 ---
 layout: page
-title: JoyBus
-description: http://joybus.tk
-keywords: JoyBus
+title: HiKid
+description: https://hikid.org
+keywords: HiKid
 permalink: /about/
 ---
 Never    
@@ -19,5 +19,5 @@ You'll live through your pain.
 Know it will pass,  
 And strength you will gain.    
 
-JoyBus    <http://joybus.tk>    
+HiKid    <https://hikid.org>    
 
