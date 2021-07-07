@@ -7,6 +7,6 @@ permalink: /links/
 ---
 
 <ul>
-<li><a href="http://joybus.tk">欢乐巴士</a> 
+<li><a href="https://hikid.org">童学启蒙</a> 
  </li>
 </ul>
