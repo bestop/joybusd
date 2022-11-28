@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
-url: https://d.hikid.org/
+url: http://d.hikid.org
 date_format: "ordinal"
 title: HiKid
 author: HiKid 
